@@ -1,0 +1,18 @@
+POST /mission/start
+X-Unlock-Code: SC.Thanva
+X-Platform: Microsoft
+Content-Type: application/json
+
+{
+  "goal": "เดินทางจากบ้านไปเซ็นทรัลลำปาง"
+}
+
+
+
+---
+
+#### 2. `requirements.txt`
+```txt
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.2
